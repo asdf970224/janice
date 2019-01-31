@@ -4,6 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>  我叫鍾儀蓁</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <style>
 	body{
@@ -19,7 +21,8 @@
 
 	}
 	h1{
-		font-family: 'Courgette', cursive;	
+		border: solid 5px skyblue;
+		padding-left: 60px
 		text-align: center;
 	}
 
@@ -36,7 +39,34 @@
 
 	hr {
 		background-color: yellow;
-		height: 10px;
+		height: 5px;
+	}
+	td,th{
+		border: solid 5px pink ;
+	}
+
+	li {
+		border: solid 1px-pink;
+		padding-top: 5px
+		padding-bottom:5px;
+		padding-left: 5px;
+	}
+	h1{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center; 
+	}
+
+	#intro{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	a{
+		text-decoration:non 
+	}
+	#detail{
+		margin-left: : auto;
+		margin-right: auto; 
 	}
 
 
@@ -46,17 +76,19 @@
 
 <body>
 
-<h1>janice's personal website</h1>
+<h1><i class="fas fa-snowboarding"></i> 	janice's personal website</h1>
 
 
 		
 	
 	
 
-<table>
+<table  id="intro">
 	<tr>
 		<td>
+
 			<img src="img/鍾儀蓁.jpg">
+
 		</td>
 		<td>
 			<h2>janice</h2>
@@ -67,57 +99,69 @@
 
 		
 <hr>
-<h3>專長</h3>
-<ol>
-	<li>英文</li>
-    <li>日文</li>
-    <li></li>
-</ol>
-<h3>嗜好</h3>
-<ul>
-	<li><a href="https://scratch.mit.edu/">寫程式</a></li>
-	<li>英文</li>
-	<li><a href="https://www.youtube.com/watch?v=qrVogjLK1ts">聽音樂</a></li>
-</ul>
-<h3>學習經驗</h3>
-<table>
-	<tr>
-		<td>時間</td>
-		<td>地點</td>
-	</tr>
-	<tr>
-		<td>2014-2020</td>
-    	<td><a href="http://www.typs.tyc.edu.tw/">桃園市大勇國民小學</a></td>
-	</tr>
-	<tr>
-		<td>2014-2019</td>
-		<td><a href="http://www.baibai.com.tw/view-temple.asp?com_ser=5147">台東市順天書屋</a></td>
-	</tr>
-</table>
 
 
-<h3>能力</h3>
-<table>
-	
+<div id="detail"class="row">
+	<div class="col-lg-3">
+		<h3>專長</h3>
+		<ol>
+			<li>英文</li>
+		    <li>日文</li>
+		    <li></li>
+		</ol>
+	</div>
+	<div class="col-lg-3">
+		<h3>嗜好</h3>
+		<ul>
+			<li><a href="https://scratch.mit.edu/">寫程式</a></li>
+			<li>英文</li>
+			<li><a href="https://www.youtube.com/watch?v=qrVogjLK1ts">聽音樂</a></li>
+		</ul>	
+	</div>
+	<div class="col-lg-3">
+		<h3>學習經驗</h3>
+		<table>
+			<tr>
+				<td>時間</td>
+				<td>地點</td>
+			</tr>
+			<tr>
+				<td>2014-2020</td>
+		    	<td><a href="http://www.typs.tyc.edu.tw/">桃園市大勇國民小學</a></td>
+			</tr>
+			<tr>
+				<td>2014-2019</td>
+				<td><a href="http://www.baibai.com.tw/view-temple.asp?com_ser=5147">台東市順天書屋</a></td>
+			</tr>
+		</table>
+	</div>
+	<div class="col-lg-3">
+		<h3>能力</h3>
+		<table>
+		   <tr>
+			<td>名稱</td>
+			<td>熟練度</td>
+		</tr>
+		     <tr>
+		     	<td>English</td>
+		     	<td>❤️️❤️️❤️️❤️️</td>
+		    </tr>
 
-   <tr>
-	<td>名稱</td>
-	<td>熟練度</td>
-</tr>
-     <tr>
-     	<td>English</td>
-     	<td>❤️️❤️️❤️️❤️️</td>
-    </tr>
+		     <tr>
+		     	<td>Scratch</td>
+		     	<td>❤️️❤️️❤️️</td>
+		    </tr>
+		     <tr>
+		     	<td>Photoshop</td>
+		     	<td>❤️️❤️️❤️️</td>
+		    </tr>
+		</table>
+	</div>
+</div>
 
-     <tr>
-     	<td>Scratch</td>
-     	<td>❤️️❤️️❤️️</td>
-    </tr>
-     <tr>
-     	<td>Photoshop</td>
-     	<td>❤️️❤️️❤️️</td>
-    </tr>
-</table>
+
+
+
 
 <div class="contact">
 <h3><a href="contact.html">聯絡資訊</a></h3>
